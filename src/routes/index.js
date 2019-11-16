@@ -9,6 +9,8 @@ import SignUp from '../pages/SignUp'
 import Dashboard from '../pages/Dashboard'
 import Profile from '../pages/Profile'
 
+import NotFound from '../pages/NotFound'
+
 export default function Routes() {
   return (
     <Switch>
@@ -16,7 +18,7 @@ export default function Routes() {
       <Route path="/register" exact component={SignUp} isPrivate />
       <Route path="/dashboard" exact component={Dashboard} isPrivate />
       <Route path="/profile" exact component={Profile} isPrivate />
-
+      <Route path="/" component={NotFound} />
     </Switch>
   )
 }
