@@ -35,7 +35,6 @@ module.exports = {
   },
   settings: {
     "import/resolver": {
-      webpack: { config: path.resolve('./config-overrides.js'), },
       "babel-plugin-root-import": {
         rootPathSuffix: "src"
       },
