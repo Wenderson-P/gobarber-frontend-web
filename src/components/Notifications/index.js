@@ -27,7 +27,7 @@ export default function Notifications() {
         timeDistance: formatDistance(
           parseISO(notification.createdAt),
           new Date(),
-          { addSuffix: "", locale: pt }
+          { addSuffix: "true", locale: pt }
         )
       }));
       setNotifications(data);
@@ -46,31 +46,13 @@ export default function Notifications() {
       </Badge>
       <NotificationList visible={visible}>
         <Scroll>
-          <Notification unread>
-            <p>Você possui um novo agendamento para amanhã</p>
-            <time>há dois dias</time>
-            <button type="button">Marcar como lida</button>
-          </Notification>
-          <Notification>
-            <p>Você possui um novo agendamento para amanhã</p>
-            <time>há dois dias</time>
-            <button type="button">Marcar como lida</button>
-          </Notification>
-          <Notification>
-            <p>Você possui um novo agendamento para amanhã</p>
-            <time>há dois dias</time>
-            <button type="button">Marcar como lida</button>
-          </Notification>
-          <Notification>
-            <p>Você possui um novo agendamento para amanhã</p>
-            <time>há dois dias</time>
-            <button type="button">Marcar como lida</button>
-          </Notification>
-          <Notification>
-            <p>Você possui um novo agendamento para amanhã</p>
-            <time>há dois dias</time>
-            <button type="button">Marcar como lida</button>
-          </Notification>
+          {notifications.map(notification => (
+            <Notification key={notification._id} unread={!notification.read}>
+              <p>{notification.content}</p>
+              <time>{notification.timeDistance}</time>
+              <button type="button">Marcar como lida</button>
+            </Notification>
+          ))}
         </Scroll>
       </NotificationList>
     </Container>
