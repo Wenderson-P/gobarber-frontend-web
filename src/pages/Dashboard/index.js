@@ -1,7 +1,20 @@
 import React from "react";
 
-// import { Container } from './styles';
+import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+import { Container } from "./styles";
 
 export default function Dashboard() {
-  return <div />;
+  return (
+    <Container>
+      <header>
+        <button type="button">
+          <MdChevronLeft size={36} color="#fff" />
+        </button>
+        <strong>Data aqui</strong>
+        <button type="button">
+          <MdChevronRight size={36} color="#fff" />
+        </button>
+      </header>
+    </Container>
+  );
 }
