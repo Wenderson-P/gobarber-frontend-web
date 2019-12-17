@@ -11,17 +11,17 @@ export const Container = styled.div`
     display: flex;
     align-self: center;
     align-items: center;
-  }
 
-  button {
-    background: none;
-    border: none;
-  }
+    button {
+      background: none;
+      border: none;
+    }
 
-  strong {
-    color: #fff;
-    font-size: 24px;
-    margin: 0 15px;
+    strong {
+      color: #fff;
+      font-size: 24px;
+      margin: 0 15px;
+    }
   }
 
   ul {
@@ -38,16 +38,18 @@ export const Time = styled.li`
   background: #fff;
 
   opacity: ${props => (props.past ? 0.6 : 1)};
+
   strong {
     display: block;
     color: ${props => (props.available ? "#999" : "#7159c1")};
     font-size: 20px;
-    font-weight: normal;
+    font-weight: ${props => (props.appointment ? "bold" : "normal")};
   }
 
   span {
     display: block;
     margin-top: 3px;
-    color: #666;
+    color: ${props => (props.available ? "#999" : "#7159c1")};
+    font-weight: ${props => (props.appointment ? "bold" : "normal")};
   }
 `;
