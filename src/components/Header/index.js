@@ -27,7 +27,7 @@ export default function Header() {
               src={
                 profile.avatar.url || "https://api.adorable.io/avatars/50/.png"
               }
-              alt="Wenderson Pacheco"
+              alt={profile.name}
             />
           </Profile>
         </aside>
