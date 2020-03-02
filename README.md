@@ -1,12 +1,27 @@
 <br />
 <p >
   <h2 align="center">GoBarber</h2>
+  <h4 align="center">Barbershop service scheduling system.</h4>
 </p>
 
-## About the project
+## 📜 Table of Contents
 
+* [About the Project](#-about-the-project)
+  * [Made With](#-made-with)
+  * [Routes](#-routes)
+* [Getting Started](#getting-started)
+  * [Requirements](#-requirements)
+  * [Installation](#-installation)
+* [Mobile Version](#-mobile-version)
+* [GoBarber API](#-gobarber-api)
 
-### Made with 
+## 🔎 About the project
+With the barber can see all of his schedules, be notified when a new appointment is made, see the appointments that already happened, and manage his profile.
+</br></br>
+
+When a new barber makes a registration, it appears in the Gobarber application. This app is only for clients(not service providers), more details in [Mobile version](https://github.com/Wenderson-P/gobarber-mobile)
+
+## 🧰 Made with
 
 - [React](http://facebook.github.io/react-native/) 
 - [Axios](https://github.com/axios/axios) 
@@ -30,15 +45,24 @@
 - [EditorConfig](https://editorconfig.org/)
 - [Redux](https://redux.js.org/)
 - [Redux-Persist](https://github.com/rt2zz/redux-persist)
-- [Syuled-Components] (https://github.com/styled-components/styled-components)
+- [Styled-Components](https://github.com/styled-components/styled-components)
 - [Polished](https://github.com/styled-components/polished)
-- [Immer] (https://github.com/immerjs/immer)
+- [Immer](https://github.com/immerjs/immer)
 
 
 ### DEMO
-![goBarber](https://user-images.githubusercontent.com/52503774/72626816-21668d00-392a-11ea-8cf7-4fda6d56f680.gif)
+<img align="center" src="https://user-images.githubusercontent.com/52503774/72626816-21668d00-392a-11ea-8cf7-4fda6d56f680.gif"/>
 
-## Get Started
+## Getting Started
+## 📋 Requirements
+$ node --version
+    v8.11.3
+
+$ npm --version
+    6.1.0
+
+
+## 🔌 Installation
 You can use npm or yarn to run the project.
 
 After cloning the project you must run :
@@ -51,6 +75,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### Mobile Version
+## 📱 Mobile Version
 
 * [GoBarber Mobile](https://github.com/Wenderson-P/gobarber-mobile)
+
+## ⚙️ GoBarber API
+ * [GoBarber API](https://github.com/Wenderson-P/gobarber-backend)
