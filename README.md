@@ -1,14 +1,17 @@
-<br />
-<p >
-  <h2 align="center">GoBarber</h2>
-  <h4 align="center">Barbershop service scheduling system.</h4>
+<p align="center"  >
+    <a href="https://github.com/Wenderson-P/gobarber-web">
+        <img src="https://user-images.githubusercontent.com/52503774/75726033-5f442880-5cc0-11ea-8176-b4c9f4d3380a.png" />
+      </a>
+    <h2 align="center">GoBarber Web</h2>
+      <h4 align="center">Barbershop service scheduling system.</h4>
 </p>
+
 
 ## 📜 Table of Contents
 
 * [About the Project](#-about-the-project)
   * [Made With](#-made-with)
-  * [Routes](#-routes)
+  * [Demo](#-demo)
 * [Getting Started](#getting-started)
   * [Requirements](#-requirements)
   * [Installation](#-installation)
