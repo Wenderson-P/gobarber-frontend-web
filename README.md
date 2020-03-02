@@ -53,7 +53,7 @@ When a new barber makes a registration, it appears in the Gobarber application. 
 - [Immer](https://github.com/immerjs/immer)
 
 
-### DEMO
+## DEMO
 <img align="center" src="https://user-images.githubusercontent.com/52503774/72626816-21668d00-392a-11ea-8cf7-4fda6d56f680.gif"/>
 
 ## Getting Started
